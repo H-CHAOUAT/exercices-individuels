@@ -9,7 +9,7 @@ function askName(){
       alert("Please only enter letters")
       askName()}
    else {
-    document.getElementById("affiche_nom").innerHTML= `Bonjour ${name}`}
+    document.getElementById("affiche_nom").innerHTML= ` Bonjour ${name} 👋`}
 }
 askName()
 
@@ -24,8 +24,10 @@ function askBirthYear(){
       alert("Please only enter the year")
       askBirthYear()}
     else{
-      age = 2024 - age
-    document.getElementById("affiche_age").innerHTML = `Vous avez ${age} ans`
+      let today = new Date()
+      let year = today.getFullYear()
+      age = year - age
+     document.getElementById("affiche_age").innerHTML = `Vous avez ${age} ans`
     }
 }
 
