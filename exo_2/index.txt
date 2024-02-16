@@ -1,0 +1,66 @@
+Attempts
+
+// function compare() {
+//    counter++
+//    //console.log(range)
+//    console.log("arriver a compare")
+//    let numberToGuess = document.getElementById("number1").value
+//    //let guessedNumber = document.getElementById("number2").value
+//    let isPlayerCorrect;
+//    let newGuess;
+
+//       while (!isPlayerCorrect){
+//            newGuess = document.getElementById("number2").value
+//            if (numberToGuess  == newGuess) {
+//              document.getElementById("resultat").style.display = "block"
+//              document.getElementById("resultat").innerHTML = " You WON !!!!" + `you have succeeded after ${counter} attempts ` 
+//              break
+//          }
+//          else if (numberToGuess != newGuess){
+//             alert(`Try again!! You made ${counter} attempts`)
+//             document.getElementById("secondPart").style.display = "block"
+//             minimumValue = guessedNumber
+                       
+//          }
+//          }
+
+   //  if (numberToGuess != guessedNumber) {
+   //     alert(`Try again!! You made ${counter} attempts`)
+   //     minimumValue = guessedNumber
+   //     alert(range)
+   //     document.getElementById("secondPart").style.display = "block"
+          
+   // }
+   // else {
+   //    
+   // }
+// }
+
+
+
+// function compare() {
+//    counter++
+//    //console.log(range)
+//    console.log("arriver a compare")
+//    let numberToGuess = document.getElementById("number1").value
+//    let guessedNumber = document.getElementById("number2").value
+   
+//     if (numberToGuess != guessedNumber) {
+//          if(guessedNumber > minimumValue)
+//          {  minimumValue = guessedNumber
+//             console.log(range) 
+//       }
+//       else if (guessedNumber < minimumValue){
+         
+//       }
+//     alert(`Try again!! You made ${counter} attempts`)
+//     document.getElementById("secondPart").style.display = "block"
+      
+      
+//    }
+//    else {
+//       document.getElementById("resultat").style.display = "block"
+//       document.getElementById("resultat").innerHTML = " You WON !!!!" + `you have succeeded after ${counter} attempts ` 
+      
+//    }
+// }

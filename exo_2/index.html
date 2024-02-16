@@ -11,14 +11,19 @@
 
     <div id="firstPart">
     <h2>First Part of the game</h2>
-    <label for="number">Choose a number between 0 and 50  </label>
+    <label for="number" id ="label1">Choose a number between 0 and 50  </label>
     <input id="number1" type="number" required> <button id="submit">Submit</button>
     </div>  
    
-    <div id="secondPart">
+    <div id="secondPart" style="display:none;">
     <h2>Second Part of the game </h2> 
-    <label for="number"> Guess a number between 0 and 50  </label>
+    <h3 id="range"></h3>
+    <!-- <label for="number"> Guess a number between 0 and 50  </label> -->
     <input id="number2" type="number" required> <button id="submit2">Submit</button> 
+    </div>
+    <div id="resultat" style="display: none;">
+        <h2>The result</h2>
+        <p></p>
     </div>
 </body>
 </html>
